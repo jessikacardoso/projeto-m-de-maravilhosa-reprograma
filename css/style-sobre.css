@@ -1,0 +1,230 @@
+/* ///////////////   Gerais   //////////////////// */
+
+body{
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+    color: #63458a;
+    max-width: 100%;
+    text-align: center;
+    font-size: 25px;
+
+}
+h2{
+    text-align: center;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+    
+}
+
+
+/* ///////////////    Nav  //////////////////// */
+nav{
+    background-color: #63458a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img.logo{
+    width: 70%;
+}
+
+img.menu{
+    width: 40%;
+}
+
+nav > ul{
+    display: none;
+}
+h1{
+    margin: 0;
+    text-transform: uppercase;
+}
+
+/* ///////////////   Header   //////////////////// */
+
+header{
+    background-image: url(../img/bg-banner-claro.png);
+    background-size: cover;
+    height: 300px;
+    background-position: center;
+    color: white;
+    margin: 0 auto;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+a.botao {
+    color: white;
+    background-color: #b288c0;
+    padding: 2% 8%;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+header>div{
+    width: 300px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+
+/* ///////////////      //////////////////// */
+
+div.color{
+    background-color: #63458a;
+    height: 100px;
+}
+
+.texto{
+    margin: 0 auto;
+}
+
+/* ///////////////   Reprograma   //////////////////// */
+
+.reprograma{
+    background-color: #63458a;
+    padding: 30px 10px;
+    text-align: center;
+}
+
+.reprograma > div{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.equipe > div {
+    border: 0;
+    text-align: center;
+    position: relative;
+}
+
+.equipe > div p{
+    position: absolute;
+    width: 90px;
+    bottom: 0;
+    font-weight: 600;
+    font-size: 0.8em;
+}
+
+.reprograma img{
+    width: 80px;
+    padding: 5px;
+}
+
+strong{
+    color: black;
+    font-size: 2.6em;
+    font-weight: 900;
+}
+
+.reprograma h2{
+    color: white;
+}
+
+
+/* ////////////////   TEXTO   //////////////// */
+
+section.texto{
+    width: 320px;
+}
+
+/* ///////////////   Footer   //////////////////// */
+footer{
+    text-align: center;
+    color: white;
+}
+
+.rodape{
+    background-color: #1d1c1c;
+    /* display: flex;
+    justify-content: space-around; */
+    align-items: center;
+    font-size: 0.9em;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.barra{
+    background-color: black;
+    margin: 0;
+    padding: 6px;
+    font-size: 0.8em;
+}
+
+.rodape img{
+    width: 200px;
+    text-align: center;
+}
+
+div.rodape {
+    /* width: 150px; */
+    margin: 0 auto;
+}
+
+img.img-fb{
+    width: 15px;
+}
+
+footer a{
+    color: white;
+    font-weight: 500;
+}
+
+.rodape li{
+    padding: 8px;
+}
+
+.rodape ul{
+    
+    padding: 0;
+}
+
+.rodape > div{
+    width: 200px;
+    margin: 0 auto;
+}
+
+div.rede-social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ///////// @@@@@@@@@@@@@@@@@@@@@@@@@ ///////// */
+
+@media (min-width:768px){
+h1{
+    font-size: 70px;
+    font-weight: 900;
+    margin-top: 130px;
+}
+
+
+header>div {
+    width: 900px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+section.texto, .color{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+}
+
+
+
